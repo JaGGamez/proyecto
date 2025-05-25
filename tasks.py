@@ -8,7 +8,7 @@ import logging
 
 from models import session, TestData
 
-# Prueba commit
+# Prueba commit 2
 # Crear "app" de Celery
 app = Celery("tasks", broker="redis://localhost")
 
